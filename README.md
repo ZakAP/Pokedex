@@ -1,7 +1,7 @@
 <h1 align="center" >Pokedex</h1>
 
 <blockquote align="center">
-   Projeto simples de task list.
+   A pokedex project using the PokéAp
 </blockquote>
 
 <p align="center">
