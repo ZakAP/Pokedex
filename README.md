@@ -5,7 +5,7 @@
 </blockquote>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/cazuza/" target="_blank">
+  <a href="https://www.linkedin.com/in/zak-almeida-phillips-5a789366/" target="_blank">
     <img alt="Author: Zak Almeida Phillips" src="https://img.shields.io/badge/Author-Zak Almeida Phillips-026aa7">
   </a>
 
@@ -61,4 +61,4 @@
 
 ## Extra credits:
 
-- Loadingball: Made by Raúl Barrera, an UI/Front-end Developer from Bogotá, Colombia. Originally named CSS Animated Pokeball. Follow his page on codepen https://codepen.io/raubaca
+- Loadingball: Made by Raúl Barrera, an UI/Front-end Developer from Bogotá, Colombia. Originally named CSS Animated Pokeball. Follow his page on codepen <a href="https://codepen.io/raubaca" target="_blank">clicking here</a>.
