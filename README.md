@@ -16,7 +16,7 @@
 
 <p align="center">
 |&nbsp;&nbsp;&nbsp;
-  <a href="" target="_blank">
+  <a href="https://zakap.github.io/Pokedex/" target="_blank">
     Live Demo
   </a>
   &nbsp;&nbsp;&nbsp;|
