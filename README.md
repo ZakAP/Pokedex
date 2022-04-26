@@ -1,7 +1,7 @@
-<h1 align="center" >Pokedex</h1>
+<h1 align="center" >Pokédex</h1>
 
 <blockquote align="center">
-   An interface for viewing information about pokemons using the pokeAPI
+   An interface for viewing information about pokémons using the pokéAPI
 </blockquote>
 
 <p align="center">
@@ -36,9 +36,9 @@
 
 ## Features
 
-  - Search for pokemons using the pokéApi
+  - Search for pokémons using the pokéApi
   - Select by generation or search by name
-  - See the pokemon details 
+  - See the pokémon details 
   - Ask for a random team
   - Change the theme of the website
   
