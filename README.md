@@ -1,7 +1,7 @@
 <h1 align="center" >Pokedex</h1>
 
 <blockquote align="center">
-   A pokedex project using the PokéAp
+   An interface for viewing information about pokemons using the pokeAPI
 </blockquote>
 
 <p align="center">
@@ -58,3 +58,7 @@
 1. Clone the project by running this command: ``
 1. Go to the project's folder and run `npm install` to install dependencies.
 1. Run `npm start`
+
+## Extra credits:
+
+- Loadingball: Made by Raúl Barrera, an UI/Front-end Developer from Bogotá, Colombia. Originally named CSS Animated Pokeball. Follow his page on codepen https://codepen.io/raubaca
