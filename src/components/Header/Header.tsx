@@ -37,6 +37,7 @@ export const Header = ({
 
   const handleSearch = () => {
     if(pokemonFilter.includes("zak")) {
+      setPokemonFilter("")
       setFilteredPokemons([...filteredPokemons, zak])
       return
     }
@@ -50,13 +51,22 @@ export const Header = ({
   const clear = () => {
     setFilteredPokemons([])
     setPokemonFilter("")
-    getRandom()
   }
 
   const handleRandomButton = () => {
     setFilteredPokemons([])
     setPokemonFilter("")
     getRandom()
+  }
+
+  const handleGetGen = (gen: number, quantityByGeneration: number[]) => {
+    getGen(gen, quantityByGeneration)
+    clear()
+  }
+
+  const handleGetAll = () => {
+    getPokemonData(898, 0)
+    clear()
   }
 
   const pokelupa = require("Assets/Images/pokelupa.png")
@@ -125,7 +135,7 @@ export const Header = ({
 
           return (
             <button
-              onClick={() => getGen(gen, quantityByGeneration)}
+              onClick={() => handleGetGen(gen, quantityByGeneration)}
               key={index}
             >
               Gen {romanize(index + 1)}
@@ -133,7 +143,7 @@ export const Header = ({
           )
         })}
         <button onClick={() => handleRandomButton()}>Random team</button>
-        <button onClick={() => getPokemonData(898, 0)}>All Generations</button>
+        <button onClick={() => handleGetAll()}>All Generations</button>
         
       </nav>
     </S.Container>

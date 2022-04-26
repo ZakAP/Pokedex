@@ -65,8 +65,7 @@ export const Home = ({ toggleTheme, theme }: HomeProps) => {
 
   const getMyFavorites = useCallback(async () => {
     const favoritesId = [
-      3, 36, 91, 748, 478, 472, 547, 637, 
-      706, 143, 461, 169, 134, 596, 303,
+      3, 36, 91, 748, 478, 472, 547, 637, 706, 143, 461, 169, 134, 596, 303,
       105, 94, 282, 763, 132,
     ]
     const response = await Promise.all(
@@ -79,7 +78,7 @@ export const Home = ({ toggleTheme, theme }: HomeProps) => {
 
   const getRandom = useCallback(async () => {
     let randomIds = []
-    for(let i = 0; i < 6 ; i++ ) {
+    for (let i = 0; i < 6; i++) {
       randomIds.push(Math.floor(Math.random() * 898) + 1)
     }
     const response = await Promise.all(
@@ -105,6 +104,11 @@ export const Home = ({ toggleTheme, theme }: HomeProps) => {
       setScrollPosition(0)
     }
   }, [loading, scrollPosition, setScrollPosition])
+
+  const goToTop = () => {
+    setScrollPosition(0)
+    window.scrollTo(0, scrollPosition)
+  }
 
   useEffect(() => {
     onLoad()
@@ -138,6 +142,11 @@ export const Home = ({ toggleTheme, theme }: HomeProps) => {
           </S.PokemonGrid>
         )}
       </S.Main>
+      <div className="backButton">
+        <button onClick={goToTop}>
+          Go to the top
+        </button>
+      </div>
     </S.Container>
   )
 }
