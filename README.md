@@ -31,7 +31,7 @@
 - [Features](#Features)
 - [Libraries & Technologies](#libraries--technologies)
 - [Instalation](#Instalation)
-- [Extra credits](#Extra--credits)
+- [Extra credits](#Extra-credits)
 
 ## Features
 
