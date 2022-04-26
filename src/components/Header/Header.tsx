@@ -81,7 +81,7 @@ export const Header = ({
         <img className="title" src={pokeTitle} alt="Site Logo" />
       </div>
 
-      <h3>Select a generation or search for a pokemon!</h3>
+      <h3>Select a generation or search for a pokémon!</h3>
 
       <S.SwitchContainer>
           <img className="day" src={day} alt="Espeon sprite"/>
@@ -111,7 +111,7 @@ export const Header = ({
             type="text"
             onChange={onChangeFilter}
             value={pokemonFilter}
-            placeholder="Search for any pokemon here!"
+            placeholder="Search for any pokémon here!"
             onKeyPress={(e) => e.key === "Enter" && handleSearch()}
           ></input>
           {filteredPokemons.length > 0 && (
