@@ -52,11 +52,13 @@ export const InfoContainer = styled.section`
   grid-row: 2 / 3;
   padding: 0.5rem;
   background-color: var(--primary);
+  margin-left: 0.6rem;
   justify-self: center;
   border-radius: 1rem;
   max-width: 40rem;
   height: fit-content;
   box-shadow: 0.1rem 0.1rem 0.2rem 0 #494c54;
+  
 
   div {
     padding: 0.1rem;
@@ -74,12 +76,12 @@ export const InfoContainer = styled.section`
   }
 
   @media (max-width: 1440px) {
-    width: 25rem;
+    max-width: 28rem;
     font-size: 0.8rem;
   }
 
   @media (max-width: 1024px) {
-    width: 22rem;
+    max-width: 25rem;
     font-size: 0.7rem;
     margin-bottom: 1.5rem;
   }
