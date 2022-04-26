@@ -31,6 +31,7 @@
 - [Features](#Features)
 - [Libraries & Technologies](#libraries--technologies)
 - [Instalation](#Instalation)
+- [Extra credits](#Extra--credits)
 
 ## Features
 
@@ -59,6 +60,6 @@
 1. Go to the project's folder and run `npm install` to install dependencies.
 1. Run `npm start`
 
-## Extra credits:
+## Extra credits
 
 - Loadingball: Made by Raúl Barrera, an UI/Front-end Developer from Bogotá, Colombia. Originally named CSS Animated Pokeball. Follow his page on codepen <a href="https://codepen.io/raubaca" target="_blank">clicking here</a>.
