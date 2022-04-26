@@ -57,7 +57,7 @@
 ## Instalation
 
 1. Have [Node.js](https://nodejs.org/en/) installed.
-1. Clone the project by running this command: ``
+1. Clone the project by running this command: `git clone https://github.com/ZakAP/Pokedex.git`
 1. Go to the project's folder and run `npm install` to install dependencies.
 1. Run `npm start`
 
